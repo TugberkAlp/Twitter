@@ -81,6 +81,58 @@
 }
 
 .setup-button {
+  font-weight: bold;
   font-size: 15px;
   line-height: 30px;
+}
+
+.mid-name {
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+.mid-upper-name {
+  font-weight: bold;
+  margin-bottom: 4px;
+  margin-left: 2px;
+}
+
+.mid-lower-name {
+  color: rgb(113, 118, 123);
+  font-size: 15px;
+}
+
+.calendar {
+  width: 16px;
+}
+
+.join-date {
+  margin-bottom: 12px;
+}
+
+.join-date-a {
+  font-size: 15px;
+  color:rgb(113, 118, 123);
+}
+
+.follower-div {
+  color: rgb(113, 118, 123);
+  height: 20px;
+  display: flex;
+  font-size: 14px;
+}
+
+.numbers {
+  color: #E7E9EA;
+}
+
+.following {
+  margin-right: 20px;
+}
+
+.following:hover,
+.follower:hover{
+  text-decoration-thickness: 1px;
+  text-decoration: underline;
+  cursor: pointer;
 }
