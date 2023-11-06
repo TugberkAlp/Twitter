@@ -1,0 +1,42 @@
+.left-header {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  top: 0px;
+  height: 50px;
+  padding: 0 16px;
+}
+
+.arrow-div {
+  width: 35px;
+  height: 35px;
+  border-radius: 17.5px;
+  transition-duration: 0.2s;
+  margin-right: 30px;
+}
+.arrow-div:hover {
+  background-color: rgba(239,243,244,0.1);
+  cursor: pointer;
+}
+
+.left-arrow {
+  padding-top: 5px;
+  padding-left: 6px;
+  width: 24px;
+}
+
+.header-name {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+}
+
+.header-first-name {
+  font-weight: bold;
+}
+
+.header-posts {
+  color: rgb(113, 118, 123);
+  font-size: 13px;
+  margin-top: 4px;
+}
