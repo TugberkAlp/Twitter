@@ -136,3 +136,13 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+.tabs-div {
+  display: flex;
+  height: 53px;
+  align-items: center;
+  justify-content:space-between;
+  font-size: 15px;
+  margin-left: 36px;
+  margin-right: 36px;
+}
