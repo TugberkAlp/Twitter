@@ -60,3 +60,19 @@
   cursor: pointer;
   background-color: rgba(215,219,220,1.00);
 }
+
+.whoToFollowMoreDiv {
+  height: 20px;
+  padding: 16px;
+  transition-duration: 0.2s;
+  font-size: 14px;
+}
+
+.whoToFollowMoreDiv:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+  cursor: pointer;
+}
+
+.whoToFollowMore {
+  color: #1D98F0;
+}

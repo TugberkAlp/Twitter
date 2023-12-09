@@ -36,10 +36,8 @@ img {
 }
 
 .mid {
-  border-left: 1px solid rgb(57, 57, 57);
-  border-right: 1px solid rgb(57, 57, 57);
   width: 600px;
-  height: 100dvh;
+  height: 100%;
 }
 
 .right {
