@@ -28,7 +28,7 @@ img {
   justify-content: space-between;
 }
 
-.left { 
+.left {
   width: 26%;
   height: 100dvh;
   display: flex;
@@ -44,4 +44,14 @@ img {
 
 .right {
   width: 350px;
+}
+
+.profile {
+  height: 40px;
+  padding: 12px;
+  margin: 15px 10px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

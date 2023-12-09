@@ -76,16 +76,6 @@
   background-color: rgb(26, 140, 216);
 }
 
-.profile {
-  height: 40px;
-  padding: 12px;
-  margin: 15px 10px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .profile:hover {
   cursor: pointer;
   background-color: rgba(231, 233, 234, 0.1);
