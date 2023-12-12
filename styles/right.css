@@ -1,0 +1,39 @@
+.right-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-search-div {
+  background-color: rgb(30, 30, 30);
+  margin-top: 6px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  border-radius: 22px;
+}
+
+.right-search-img {
+  height: 20px;
+  padding-left: 10px;
+}
+
+.right-search-name {
+  font-size: 14px;
+  padding-top: 3px;
+  padding-left: 14px;
+  color: rgb(100, 100, 100);
+}
+
+.yml-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.yml-name {
+  padding-top: 12px;
+  padding-left: 4px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}

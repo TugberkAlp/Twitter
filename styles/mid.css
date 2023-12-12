@@ -6,7 +6,9 @@
   align-items: center;
   top: 0px;
   height: 50px;
-  padding: 0 16px;
+  padding: 0 14px;
+  border-left: 1px solid rgb(57, 57, 57);
+  border-right: 1px solid rgb(57, 57, 57);
 }
 
 .arrow-div {
