@@ -42,9 +42,44 @@ function whoToFollows() {
   `;
     updateDiv += updateThisDiv;
   }
-  
+
   thisdiv = updateDiv + document.querySelector(".whoToFollowSection").innerHTML;
   document.querySelector(".whoToFollowSection").innerHTML = thisdiv;
 }
 
+function youMightLike() {
+  let updateDiv = "";
+  updateDiv += `
+  <div class="yml-name">You might like</div>
+               `;
+
+  for (let i = 0; i < 3; i++) {
+    let photoURL = generateRandomPhotoURL();
+    let nameAndTag = generatorNameAndTag();
+    let updateThisDiv = `
+    <div class="yml-persons">
+      <div>
+        <img class="whoFollowImg" src="${photoURL}">
+      </div>
+      <div class="whoFollowNameDiv">
+        <div class="whoFollowName">${nameAndTag.name}</div>
+        <div class="whoFollowTag">${nameAndTag.tag}</div>
+      </div>
+      <div>
+        <button class="whoFollowButton">Follow</button>
+      </div>
+    </div>
+    `;
+    updateDiv += updateThisDiv;
+  }
+  updateDiv += `
+  <div class="yml-showmore">Show more</div>
+  `;
+
+  thisdiv = updateDiv;
+  document.querySelector(".yml-div").innerHTML = thisdiv;
+}
+
+
 whoToFollows();
+youMightLike();

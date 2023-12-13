@@ -1,3 +1,12 @@
+.right-header {
+  background-color: rgba(0, 0, 0, 0.65);
+  position: sticky;
+  align-items: center;
+  top: 0px;
+  padding-top: 2px;
+  height: 50px;
+}
+
 .right-div {
   display: flex;
   flex-direction: column;
@@ -6,8 +15,8 @@
 
 .right-search-div {
   background-color: rgb(30, 30, 30);
-  margin-top: 6px;
-  height: 44px;
+  margin-top: 4px;
+  height: 40px;
   display: flex;
   align-items: center;
   border-radius: 22px;
@@ -20,20 +29,79 @@
 
 .right-search-name {
   font-size: 14px;
-  padding-top: 3px;
+  padding-top: 2px;
   padding-left: 14px;
   color: rgb(100, 100, 100);
 }
 
 .yml-div {
+  background-color: rgb(22, 24, 28);
   display: flex;
   flex-direction: column;
+  border-radius: 20px;
   margin-top: 16px;
 }
 
 .yml-name {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-left: 16px;
   padding-top: 12px;
-  padding-left: 4px;
-  margin-bottom: 10px;
+  margin-bottom: 24px;
   font-weight: bold;
 }
+
+.yml-persons {
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.yml-persons:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+  cursor: pointer;
+}
+
+.yml-showmore {
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  color: #1D98F0;
+  transition-duration: 0.2s;
+}
+
+.yml-showmore:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+  cursor: pointer;
+}
+
+.trends-div {
+  background-color: rgb(22, 24, 28);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-top: 16px;
+}
+
+.trends-name {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-left: 16px;
+  padding-top: 12px;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+.trends-objects {
+  display: flex;
+  padding-left: 16px;
+}
+
