@@ -89,6 +89,7 @@
   flex-direction: column;
   border-radius: 20px;
   margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .trends-name {
@@ -156,6 +157,7 @@
 }
 
 .mores-group {
+  padding-bottom: 4px;
   display: flex;
   flex-wrap: wrap;
 }
