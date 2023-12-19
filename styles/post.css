@@ -1,0 +1,10 @@
+.post-area {
+  position: absolute;
+  z-index: 1;
+  height: 100px;
+  width: 600px;
+  border-radius: 20px;
+  background-color: red;
+  left: 30%;
+  top: 5%;
+}
