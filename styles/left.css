@@ -63,6 +63,8 @@
 
 .post-button {
   background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
   font-size: 17px;
   font-weight: bold;
   padding: 14px 100px;
