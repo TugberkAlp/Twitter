@@ -11,6 +11,7 @@
 
 .post-area-top-div {
   padding: 12px;
+  padding-bottom: 24px;
   display: flex;
   justify-content: space-between;
 }
@@ -47,4 +48,41 @@
 .post-area-top-div-drafts:hover {
   background-color: rgba(29,155,240,0.10);
   cursor: pointer;
+}
+
+.post-area-bottom-div {
+  background-color: green;
+}
+
+.post-area-post-div {
+  display: flex;
+}
+
+.post-area-photo-div {
+  padding-left: 16px;
+  padding-top: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.post-area-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.post-area-wih-div {
+  width: 100%;
+  height: 120px;
+  padding-left: 10px;
+}
+
+.post-area-wih-input {
+  border: none;
+  background-color: black;
+  height: 98%;
+  width: 100%;
+  font-size: 20px;
+  color: white;
 }
