@@ -5,7 +5,7 @@ body {
   background-color: black;
   color: white;
   box-sizing: border-box;
-  height: 100dvh;
+  height: 100%;
 }
 
 img {
@@ -13,11 +13,12 @@ img {
 }
 
 .main {
+  height: 100%;
   display: flex;
 }
 
 .right-main {
-  height: 100dvh;
+  height: 100%;
   width: 990px;
   display: flex;
 }
@@ -36,6 +37,8 @@ img {
 }
 
 .mid {
+  border-left: 1px solid rgb(57, 57, 57);
+  border-right: 1px solid rgb(57, 57, 57);
   width: 600px;
   height: 100%;
 }

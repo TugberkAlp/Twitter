@@ -14,9 +14,9 @@
 </head>
 
 <body>
-  <div class="post-area">
+  <div class="post-area" id="js-post-area">
     <div class="post-area-top-div">
-      <button class="post-area-top-div-x">X</button>
+      <button class="post-area-top-div-x" id="js-post-x-button">X</button>
       <div class="post-area-top-div-drafts">Drafts</div>
     </div>
     <div class="post-area-bottom-div">
@@ -25,20 +25,22 @@
           <img class="post-area-photo" src="https://xsgames.co/randomusers/avatar.php?g=male">
         </div>
         <div class="post-area-wih-div">
-          <input class="post-area-wih-input" type="text" placeholder="What is happening?!">
+          <textarea class="post-area-wih-input" id="js-post-input" type="text" placeholder="What is happening?!" oninput="checkInput()"></textarea>
         </div>
       </div>
       <div class="post-area-others-div">
         <div class="post-area-ecr-div">
-            
+            <img class="post-area-ecr-img" src="images/earth.png">
+            <div class="post-area-ecr-name">Everyone can reply</div>
         </div>
+        <div class="post-area-line"></div>
         <div class="post-area-post-div">
-
+          <button class="post-area-post-name" id="js-post-area-button" disabled="true">Post</button>
         </div>
       </div>
     </div>
   </div>
-  <main class="main">
+  <main class="main" id="js-main">
     <leftSection class="left">
       <div class="items">
         <div class="item-two">
@@ -103,7 +105,7 @@
           </div>
           <div class="item-list">
             <div class="post-div">
-              <button class="post-button js-post-button" onclick="postTwit()">Post</button>
+              <button class="post-button" id="js-post-button">Post</button>
             </div>
           </div>
         </div>

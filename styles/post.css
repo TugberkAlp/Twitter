@@ -1,12 +1,12 @@
 .post-area {
-  position: absolute;
+  position: fixed;
   z-index: 1;
-  height: 100px;
   width: 600px;
   border-radius: 20px;
   background-color: black;
   left: 30%;
   top: 5%;
+  display: none;
 }
 
 .post-area-top-div {
@@ -51,16 +51,12 @@
 }
 
 .post-area-bottom-div {
-  background-color: green;
-}
-
-.post-area-post-div {
-  display: flex;
+  background-color: black;
+  border-radius: 20px;
 }
 
 .post-area-photo-div {
   padding-left: 16px;
-  padding-top: 20px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -74,15 +70,80 @@
 
 .post-area-wih-div {
   width: 100%;
-  height: 120px;
   padding-left: 10px;
 }
 
 .post-area-wih-input {
+  overflow-y: hidden;
+  resize: none;
   border: none;
+  outline: none;
   background-color: black;
-  height: 98%;
-  width: 100%;
+  width: 93%;
   font-size: 20px;
   color: white;
+  padding-left: 5px;
+  min-height: 100px;
+}
+
+.post-area-ecr-div {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  width: 160px;
+  height: 24px;
+  border-radius: 12px;
+}
+
+.post-area-ecr-div:hover {
+  background-color: rgba(29,155,240,0.10);
+  cursor: pointer;
+}
+
+.post-area-ecr-img {
+  width: 16px;
+  height: 16px;
+}
+
+.post-area-ecr-name {
+  font-size: 15px;
+  padding-left: 2px;
+  color: #1D9BF0;
+  display: flex;
+}
+
+.post-area-line {
+  height: 1px;
+  margin-left: 10px;
+  margin-right: 22px;
+  background-color: rgb(47,51,54);
+}
+
+.post-area-post-div {
+  display: flex;
+  justify-content: end;
+}
+
+.post-area-post-name {
+  border: none;
+  color: white;
+  cursor: pointer;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 16px 10px 0;
+  width: 70px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 18px;
+  background-color: #1D9BF0;
+}
+
+.post-area-post-name:disabled {
+  opacity: 0.5;
+  cursor: default;
 }
