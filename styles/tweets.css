@@ -6,6 +6,8 @@
   cursor: pointer;
   transition-duration: 0.2s;
   font-size: 14px;
+  border-top: 1px solid rgb(57, 57, 57);
+  border-bottom: 1px solid rgb(57, 57, 57);
 }
 
 .tweets-right {
@@ -74,106 +76,21 @@
   justify-content: space-between;
 }
 
-.tweets-reply-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 24px;
-  border-radius: 50%;
-  transition-duration: 0.2s;
-}
-
-.tweets-reply-div:hover {
-  background-color: rgb(29, 155, 240);
-}
-
-.tweets-reply {
-  height: 16px;
-  width: 16px;
-}
-
-.tweets-retweet-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 24px;
-  border-radius: 50%;
-  transition-duration: 0.2s;
-}
-
-.tweets-retweet {
-  height: 16px;
-  width: 16px;
-}
-
-.tweets-retweet-div:hover {
-  background-color: rgb(0, 186, 124);
-}
-
-.tweets-like-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 24px;
-  border-radius: 50%;
-  transition-duration: 0.2s;
-}
-
-.tweets-like {
-  height: 16px;
-  width: 16px;
-}
-
-.tweets-like-div:hover {
-  background-color: rgb(249, 24, 128);
-}
-
-.tweets-view-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 24px;
-  border-radius: 50%;
-  transition-duration: 0.2s;
-}
-
-.tweets-view {
-  height: 16px;
-  width: 16px;
-}
-
-.tweets-view-div:hover {
-  background-color: rgb(29, 155, 240);
-}
-
-.tweets-bookmark {
-  height: 16px;
-  width: 16px;
-}
-
-.tweets-bookmark-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 24px;
-  width: 24px;
-  border-radius: 50%;
-  transition-duration: 0.2s;
-}
-
-.tweets-bookmark-div:hover {
-  background-color: rgb(29, 155, 240);
-}
-
+.tweets-reply,
+.tweets-retweet,
+.tweets-like,
+.tweets-view,
+.tweets-bookmark,
 .tweets-share {
   height: 16px;
   width: 16px;
 }
 
-.tweets-share-div:hover {
-  background-color: rgb(29, 155, 240);
-}
-
+.tweets-reply-div,
+.tweets-retweet-div,
+.tweets-like-div,
+.tweets-view-div,
+.tweets-bookmark-div,
 .tweets-share-div {
   display: flex;
   align-items: center;
@@ -182,6 +99,21 @@
   width: 24px;
   border-radius: 50%;
   transition-duration: 0.2s;
+}
+
+.tweets-share-div:hover,
+.tweets-reply-div:hover,
+.tweets-view-div:hover,
+.tweets-bookmark-div:hover {
+  background-color: rgb(29, 155, 240);
+}
+
+.tweets-retweet-div:hover {
+  background-color: rgb(0, 186, 124);
+}
+
+.tweets-like-div:hover {
+  background-color: rgb(249, 24, 128);
 }
 
 .tweets-little-div {
