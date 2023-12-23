@@ -1,24 +1,40 @@
-const userInformation = [
-  username = "Alpturk HARMAN",
-  usernameTag = "@alpturk_harman",
-  follows = 10,
-  followers = 12,
-  twits = ["Bu bir twit", "Yeni bir twit"]
-];
+let userInformation = {
+  username: "Alpturk HARMAN",
+  follows: 10,
+  followers: 12,
+  twits: ["Bu bir twit", "Yeni bir twit"]
+};
 
-let names = document.querySelectorAll("js-name");
-let nameTags = document.querySelectorAll("js-nameTag");
+const setupButton = document.getElementById('js-setup');
+const nameSetup = document.getElementById("js-nameInput");
+const jsName = document.getElementById("js-name");
+const jsNames = document.querySelectorAll(".js-name");
 
-console.log(userInformation);
+setupButton.addEventListener("click", function () {
+  if (setupButton.innerHTML === "Confirm") {
+    if (nameSetup.value !== "") {
+      setupButton.innerHTML = "Set up profile"
+      jsName.style.display = "block";
+      nameSetup.style.display = "none";
+      userInformation.username = nameSetup.value;
+      changeNames();
+    } else {
+      alert("Please enter a username.");
+      return;
+    }
+  } else {
+    setupButton.innerHTML = "Confirm";
+    jsName.style.display = "none";
+    nameSetup.style.display = "block";
+  }
+});
 
 function changeNames() {
-  names.forEach(function(names){
+  jsNames.forEach(function (names) {
     names.innerHTML = userInformation.username;
   })
-}
+};
 
-function changeNameTags() {
-  names.forEach(function(names){
-    names.innerHTML = userInformation.username;
-  })
+function writeTwits() {
+  
 }

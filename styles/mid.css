@@ -171,6 +171,10 @@
   color: #E7E9EA;
 }
 
-.mid-main {
-
+.nameInput {
+  display: none;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 5px;
 }
