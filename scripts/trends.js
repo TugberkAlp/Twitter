@@ -32,9 +32,7 @@ function trends() {
   updateDiv += `
   <div class="yml-showmore">Show More</div>
   `;
-
-  thisdiv = updateDiv;
-  document.querySelector(".trends-div").innerHTML = thisdiv;
+  document.querySelector(".trends-div").innerHTML = updateDiv;
 }
 
 trends();

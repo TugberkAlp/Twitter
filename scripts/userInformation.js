@@ -17,7 +17,7 @@ writeUserInfos(userInformation);
 writeTwits(userInformation);
 
 function writeUserInfos() {
-  document.getElementById('js-name').innerHTML = userInformation.username;
+  jsName.innerHTML= userInformation.username;
   document.getElementById('js-nameTag').innerHTML = userInformation.usernameTag;
   document.getElementById('following').innerHTML = userInformation.following;
   document.getElementById('follower').innerHTML = userInformation.followers;
